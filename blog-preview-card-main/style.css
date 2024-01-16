@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background-color:  hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 320px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.container:hover{
+    box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.48);
+}
+.container:active{
+    box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.48);
+}
+.container h1{
+    margin: 0;
+}
+.cuerpo{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.learning{
+    display: flex;
+    background-color: hsl(47, 88%, 63%);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.container svg{
+    padding: 20px 0;
+}
+.autor{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    gap: 10px;
+}
+.autor img{
+    height: 30px;
+}
+.attribution{
+    position: absolute;
+    bottom: 20px;
+}
